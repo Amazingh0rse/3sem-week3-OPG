@@ -10,7 +10,7 @@ cph-mr462
 - Github: https://github.com/Amazingh0rse/3sem-week3-MOVIE
 
 **Onsdags opgaver**
-- https://github.com/Amazingh0rse/3sem-week3-OPG
+- https://github.com/Amazingh0rse/3sem-week3-OPG/tree/master/thursday
 
 **Torsdag**
-- https://github.com/Amazingh0rse/3sem-week3-OPG
+- https://github.com/Amazingh0rse/3sem-week3-OPG/tree/master/wednesday
