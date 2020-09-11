@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+</style>
+</head>
+<body>
+
+<div id="div1">
+  <p style="background-color: blueviolet;">Første element i div 1.</p>
+  <p style="background-color: blueviolet;">Andet element i div 1</p>
+  <p style="background-color: blueviolet;">Tredje element i div 1</p>
+</div>
+    
+<div id="div2">
+  <p style="background-color: greenyellow;">Første element i div 1.</p>
+  <p style="background-color: greenyellow;">Andet element i div 1</p>
+  <p style="background-color: greenyellow;">Tredje element i div 1</p>
+</div>
+    
+<div id="div3">
+  <p style="background-color: navajowhite;">Første element i div 1.</p>
+  <p style="background-color: navajowhite;">Andet element i div 1</p>
+  <p style="background-color: navajowhite;">Tredje element i div 1</p>
+</div>    
+
+<p>Tryk på knappen! Din freak</p>
+
+<button onclick="skiftFarve()">tryk...TRYK!!  SÅ TRYK DOG!</button>
+
+<script>
+function skiftFarve() {
+  var x = document.getElementById("div1");
+  x.getElementsByTagName("P")[0].style.backgroundColor = "greenyellow";
+  x.getElementsByTagName("P")[1].style.backgroundColor = "greenyellow";
+  x.getElementsByTagName("P")[2].style.backgroundColor = "greenyellow";
+  
+  var x = document.getElementById("div2");
+  x.getElementsByTagName("P")[0].style.backgroundColor = "navajowhite";
+  x.getElementsByTagName("P")[1].style.backgroundColor = "navajowhite";
+  x.getElementsByTagName("P")[2].style.backgroundColor = "navajowhite";
+  
+  var x = document.getElementById("div3");
+  x.getElementsByTagName("P")[0].style.backgroundColor = "blueviolet";
+  x.getElementsByTagName("P")[1].style.backgroundColor = "blueviolet";
+  x.getElementsByTagName("P")[2].style.backgroundColor = "blueviolet";
+}
+</script>
+
+</body>
+</html>

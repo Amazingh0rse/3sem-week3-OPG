@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .divall {width: 25px; height: 25px; background-color: yellow; margin:1px;}
+           
+         
+            
+        </style>
+    </head>
+    <body>
+        <p id="emptyparagraph"></p>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <div id="divall">
+            <div id="div1">
+                <input type="button" class="addbut" value="tryk" />
+            </div>
+            <div id="div2">
+                <input type="button" class="addbut" value="tryk her" />
+            </div>
+            <div id="div3">
+                <input type="button" class="addbut" value="eller...måske her" />
+            </div>
+            <div id="div4">
+                <input type="button" class="addbut" value="ikke her" />
+            </div>
+            <div id="div5">
+                <input type="button" class="addbut" value="slet ik her" />
+            </div>
+            <div id="div6">
+                <input type="button" class="addbut" value="aldrig her? wtf" />
+            </div>
+            <div id="div7">
+                <input type="button" class="addbut" value="Gå væk" />
+            </div>
+            <div id="div8">
+                <input type="button" class="addbut" value="okay..måske her" />
+            </div>
+            <div id="div9">
+                <input type="button" class="addbut" value="DO NOT PRESS THIS BUTTON" />
+            </div>
+            <div id="div10">
+                <input type="button" class="addbut" value="ah så lad gå..du kan klikke her" />
+            </div>
+            <div id="div11">
+                <input type="button" class="addbut" value="Aldrig her" />
+            </div>
+            <div id="div12">
+                <input type="button" class="addbut" value="arrrhhhh" />
+            </div>        
+        </div>
+        <script>
+             $(".addbut").click(function() {
+               // alert(this.parentNode.id);
+             document.getElementById("emptyparagraph").innerHTML = "DU KLIKKEDE?! hmpf..nå ja.. Hi from "+$(this).parent().attr('id')
+            });
+        </script>
+    </body>
+</html>
